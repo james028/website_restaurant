@@ -460,6 +460,27 @@ nav li a:hover
     display: none;
 }
 
+.con-1
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.slid-text
+{
+    color: #fff;
+    margin: 200px auto 20px;
+}
+.slid-text h5
+{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.slid-text p
+{
+    font-size: 50px;
+    text-transform: uppercase;
+}
 
 /* Sekcja footer */
 

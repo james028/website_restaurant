@@ -112,5 +112,54 @@
     {
         font-size: 12px;
     }
+    .slid-text h5
+    {
+    font-size: 15px;
+    margin-bottom: 15px;
+    }
+    .slid-text p
+    {
+    font-size: 28px;
+    text-transform: uppercase;
+    }
+    .list-inline li
+    {
+        padding-left: 0;
+        margin-bottom: 30px;
+    }
+    .last-col
+    {
+        text-align: center;
+        
+    }
+    .last-col p
+    {
+        font-size: 12px;
+    }
+    .map-con-a h4 
+    {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    }
+    .map-con-a .fa
+    {
+        font-size: 26px;
+        margin: 10px auto;
+    }
+    #slides
+    {
+        margin: 70px auto;
+    }
+    .map-con-2 img
+    {
+        max-width: 96%;
+        max-height: 90%;
+    
+    }
+    .con-side-2
+    {
+        margin: 50px 10px 90px;
+    }
     
 }
