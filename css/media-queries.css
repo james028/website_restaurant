@@ -1,0 +1,116 @@
+@media screen and (max-width: 700px) {
+
+  nav {
+    height: auto;
+    border-bottom: 0;
+  }
+  nav ul {
+    display: none;
+    height: auto;
+    margin: 0;
+  }
+  nav li {
+    width: 100%;
+    float: left;
+    position: relative;
+  }
+  nav a {
+    text-align: left;
+    width: 100%;
+    text-indent: 25px;
+    background: #333;
+
+    color: orangered;
+  }
+  nav a:hover {
+    background: #444;
+    
+  }
+  nav a#openup:after {
+    content: "|||";
+    transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    /* IE 9 */
+    -webkit-transform: rotate(-90deg);
+    /* Safari and Chrome */
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    right: 5px;
+    top: 20px;
+  }
+  nav a#openup {
+    display: block;
+    background-color: #333;
+    width: 100%;
+    position: relative;
+    color: #fff;
+  }
+}
+.cf:before, .cf:after {
+  content: "";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  zoom: 1;
+}
+
+
+
+@media (max-width: 480px){
+    
+    .page-content p
+    {   
+    margin: 40px 10px 15px;
+    text-align: justify;
+    font-size: 14px;
+    }
+    .menu-tex .menu-tex-1
+    {
+    
+    text-align: center;
+    margin: 0 auto;
+    font-size: 15px;
+    width: 80%;
+    }
+    .row-5
+    {
+    display: flex;
+    flex-direction: column;
+    }   
+    .row-1
+    {   
+    display: flex;
+    flex-direction: column;
+    }  
+    .team-col
+    {
+    text-align: center;
+    margin: 20px auto;
+    }
+    .news-main-1
+    {
+    display: block;
+    margin-bottom: 20px;
+    }
+   .row-3
+    {
+    display: flex;
+    flex-direction: column;
+    } 
+    .row-2 .title
+    {
+        margin: 30px auto;
+    }
+    .form-con-1 p
+    {
+        font-size: 12px;
+    }
+    
+}
