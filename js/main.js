@@ -6,7 +6,9 @@ $(document).ready(function() {
     slide_speed: 800,
     pagination: true,
     hashchange: true,
-    scrollable: true
+    scrollable: true,
+    animation: 'slide',
+    play: 2500
   });
 });
 
