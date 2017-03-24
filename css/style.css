@@ -481,6 +481,24 @@ nav li a:hover
     font-size: 50px;
     text-transform: uppercase;
 }
+.btn {
+    -webkit-border-radius: 35;
+    -moz-border-radius: 35;
+    border-radius: 35px;
+    font-family: Georgia;
+    color: #fff;
+    font-size: 26px;
+    background: #f5ac03;
+    padding: 8px 27px 10px 27px;
+    text-decoration: none;
+    margin: 50px auto 10px;
+    text-decoration: none;
+}
+
+.btn:hover {
+  background: #fbff00;
+  text-decoration: none;
+}
 
 /* Sekcja footer */
 
