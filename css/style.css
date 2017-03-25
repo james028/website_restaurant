@@ -47,6 +47,7 @@ nav a#openup {
 nav li a:hover
 {
     color: orangered;
+    text-decoration: none;
 }
 
 
@@ -492,14 +493,22 @@ nav li a:hover
     padding: 8px 27px 10px 27px;
     text-decoration: none;
     margin: 50px auto 10px;
-    text-decoration: none;
 }
 
 .btn:hover {
   background: #fbff00;
   text-decoration: none;
+    color: #fff;
 }
-
+.btn a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.btn a:hover {
+  text-decoration: none;
+    color: #fff;
+}
 /* Sekcja footer */
 
 
