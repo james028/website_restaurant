@@ -545,8 +545,9 @@ nav li a:hover
 }
 .slid-text h5
 {
-    font-size: 30px;
+    font-size: 32px;
     margin-bottom: 30px;
+    font-family: 'Satisfy', cursive;
 }
 .slid-text p
 {
@@ -582,11 +583,13 @@ nav li a:hover
 }
 /* Sekcja footer */
 
-
-.ft-1
+.foot
 {
-    font-size: 18px;
-    color: #000;
-    letter-spacing: 1px;
-    margin-left: 100px;
+    color: gray;
+    margin: 30px auto 5px;
+    text-align:center;
+    line-height:100%;
+    width:100%;
+    height:100%;
+    font-size:18px;
 }

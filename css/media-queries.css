@@ -114,7 +114,7 @@
     }
     .news-main-1 img
     {
-        margin-left: 80px;
+        margin-left: 70px;
     }
    .row-3
     {
@@ -182,5 +182,8 @@
     {
         min-height: 530px;
     }
-    
+    .foot
+    {
+        font-size: 14px;
+    }
 }
