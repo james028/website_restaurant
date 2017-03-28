@@ -65,11 +65,24 @@
 
 @media (max-width: 480px){
     
+    .page-content
+    {
+    margin-top: 70px; 
+    }
     .page-content p
     {   
-    margin: 40px 10px 15px;
+    margin: 20px 10px 10px;
     text-align: justify;
-    font-size: 14px;
+    font-size: 12px;
+    }
+    .container-1
+    {
+        width: 220px;
+        height: 30px;
+    }
+    .button-1
+    {
+        padding: 10px;
     }
     .menu-tex .menu-tex-1
     {
@@ -98,6 +111,10 @@
     {
     display: block;
     margin-bottom: 20px;
+    }
+    .news-main-1 img
+    {
+        margin-left: 80px;
     }
    .row-3
     {
@@ -145,7 +162,7 @@
     .map-con-a .fa
     {
         font-size: 26px;
-        margin: 10px auto;
+        margin: 10px auto 12px 130px;
     }
     #slides
     {
@@ -160,6 +177,10 @@
     .con-side-2
     {
         margin: 50px 10px 90px;
+    }
+    #main-page
+    {
+        min-height: 530px;
     }
     
 }
