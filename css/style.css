@@ -11,37 +11,34 @@ body
 }
 
 
-
-
 /* Rozwijane menu */
-
-
 nav {
   height: 50px;
   width: 100%;
   color: #fff;
-
 }
-nav ul {
+nav ul 
+{
   padding: 0;
   margin: 20px;
 }
-nav li {
+nav li 
+{
   display: inline;
   float: left;
 }
-nav a {
+nav a 
+{
   display: inline-block;
   width: 100px;
   text-align: center;
   text-decoration: none;
   padding: 10px 0;
   color: #fff;
-  letter-spacing: 1px;
-    
+  letter-spacing: 1px;   
 }
-
-nav a#openup {
+nav a#openup 
+{
   display: none;
 }
 nav li a:hover
@@ -51,8 +48,9 @@ nav li a:hover
 }
 
 
+
 /* Sekcja pierwsza */
-#main-page
+#page-1
 {
     background-image: url('../img/main.jpg');
     background-size: cover;
@@ -65,7 +63,6 @@ nav li a:hover
     max-height:100%;
     margin: 0 auto;
     display: block;
-    
 }
 .page-content
 {
@@ -90,6 +87,7 @@ nav li a:hover
     line-height: 26px;
     font-weight: 400;
 }
+
 
 /* Button-1 */
 .container-1 {
@@ -150,13 +148,12 @@ nav li a:hover
 .button-1 a
 {
 	text-decoration: none;
-	color: #f7f7f7;;
+	color: #f7f7f7;
 }
+
+
+
 /* Sekcja menu */
-#menu
-{
-    
-}
 .row-5
 {
     display: flex;
@@ -199,6 +196,8 @@ nav li a:hover
     transform: scale(1.2);
     transition: 0.3s transform linear;
 }
+
+
 
 /* Sekcja team*/
 #our-team
@@ -260,10 +259,6 @@ nav li a:hover
 
 
 /* Sekcja news */
-#news-main
-{
-    
-}
 .row-2
 {
     display: flex;
@@ -323,12 +318,7 @@ nav li a:hover
 
 
 
-
 /* Sekcja kontakt */
-#cont
-{
-    
-}
 .row-3
 {
     display: flex;
@@ -443,6 +433,7 @@ nav li a:hover
 }
 
 
+
 /* Social media */
 .list-unstyled {
 	padding-left: 0;
@@ -474,13 +465,16 @@ nav li a:hover
 	transition: all 0.3s ease-in-out;
 }
 
-.social-icons.icon-circle .fa{ 
+.social-icons.icon-circle .fa
+{ 
 	border-radius: 50%;
 }
-.social-icons.icon-rounded .fa{
+.social-icons.icon-rounded .fa
+{
 	border-radius:5px;
 }
-.social-icons.icon-flat .fa{
+.social-icons.icon-flat .fa
+{
 	border-radius: 0;
 }
 
@@ -499,13 +493,9 @@ nav li a:hover
 .social-icons .fa-flickr{background-color:#FF0084;}
 
 
+
+
 /* sekcja last */
-#last-sec
-{
-    
-
-}
-
 .last-col h4
 {
     font-size: 22px;
@@ -531,7 +521,6 @@ nav li a:hover
 {
     display: none;
 }
-
 .con-1
 {
     display: flex;
@@ -581,8 +570,11 @@ nav li a:hover
   text-decoration: none;
     color: #fff;
 }
-/* Sekcja footer */
 
+
+
+
+/* Sekcja footer */
 .foot
 {
     color: gray;
@@ -593,3 +585,4 @@ nav li a:hover
     height:100%;
     font-size:18px;
 }
+

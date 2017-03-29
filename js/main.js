@@ -27,7 +27,7 @@ $(function() {
   $(window).resize(function() {
     var w = $(this).width(); 
       if(w > 700 && menu.is(':hidden')) {
-      menu.removeAttr('style'); // Jesli szerokosc jest wieksza niz 700px zostaje usuniety atrybut style
+      menu.removeAttr('style'); // Jesli szerokosc jest wieksza niz 700px  i menu ma klase hidden zostaje usuniety atrybut style
     }
   });
   
@@ -39,3 +39,6 @@ $(function() {
   });
   $('.open-menu').height($(window).height());
 });
+
+
+
