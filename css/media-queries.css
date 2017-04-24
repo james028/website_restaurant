@@ -1,4 +1,4 @@
-@media screen and (max-width: 700px) {
+@media (max-width: 700px) {
 
   nav {
     height: auto;
@@ -24,7 +24,7 @@
   }
   nav a:hover {
     background: #444;
-    
+
   }
   nav a#openup:after {
     content: "|||";
@@ -64,7 +64,7 @@
 
 
 
-@media (min-width: 481px) and (max-width: 780px){
+@media (min-width: 541px) and (max-width: 960px){
     .page-content
     {
         margin-top: 210px;
@@ -73,7 +73,7 @@
     {
     display: flex;
     flex-direction: column;
-    } 
+    }
     .row-3
     {
     display: flex;
@@ -88,22 +88,44 @@
     {
         text-align: center;
     }
+    .last-col p
+    {
+      margin: 30px 55px 10px;
+    }
+    .team-col p
+    {
+      margin: 5px 50px;
+    }
     #slides
     {
         max-height: 700px;
+    }
+    .row-1
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .team-col img
+    {
+        max-width: 50%;
+    }
+    .menu-tex .menu-tex-1
+    {
+        width: 80%;
+        margin: 0 auto;
     }
 }
 
 
 
-@media (max-width: 480px){
-    
+@media (max-width: 540px){
+
     .page-content
     {
-    margin-top: 90px; 
+    margin-top: 90px;
     }
     .page-content p
-    {   
+    {
     margin: 20px 10px 10px;
     text-align: justify;
     font-size: 12px;
@@ -119,7 +141,7 @@
     }
     .menu-tex .menu-tex-1
     {
-    
+
     text-align: center;
     margin: 0 auto;
     font-size: 15px;
@@ -129,12 +151,12 @@
     {
     display: flex;
     flex-direction: column;
-    }   
+    }
     .row-1
-    {   
+    {
     display: flex;
     flex-direction: column;
-    }  
+    }
     .team-col
     {
     text-align: center;
@@ -153,7 +175,7 @@
     {
     display: flex;
     flex-direction: column;
-    } 
+    }
     .row-2 .title
     {
         margin: 30px auto;
@@ -180,13 +202,13 @@
     .last-col
     {
         text-align: center;
-        
+
     }
     .last-col p
     {
         font-size: 12px;
     }
-    .map-con-a h4 
+    .map-con-a h4
     {
     display: block;
     text-align: center;
@@ -205,7 +227,7 @@
     {
         max-width: 96%;
         max-height: 90%;
-    
+
     }
     .con-side-2
     {
