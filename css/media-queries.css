@@ -114,6 +114,19 @@
         width: 80%;
         margin: 0 auto;
     }
+    .slid-text
+    {
+        margin: 150px auto 20px;
+    }
+    .slid-text h5
+    {
+    font-size: 18px;
+    margin-bottom: 10px;
+    }
+    .slid-text p
+    {
+    font-size: 30px;
+    }
 }
 
 
