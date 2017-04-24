@@ -127,6 +127,10 @@
     {
     font-size: 30px;
     }
+    .btn
+    {
+        margin: 20px auto;
+    }
 }
 
 
