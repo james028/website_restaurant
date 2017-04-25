@@ -40,3 +40,36 @@ $(function() {
   });
   $('.open-menu').height($(window).height());
 });
+
+
+//button pojawiajacy sie po skrollowania i przenoszacy do gory
+
+var bat = document.createElement("but1");
+
+bat.classList.add("button-up", "hidden");
+document.body.appendChild(bat);
+
+window.addEventListener("scroll", function() {
+    
+    if (window.scrollY >= 600) {
+        bat.classList.remove("hidden");
+    } else {
+        bat.classList.add("hidden");
+    }
+    
+}, false);
+
+
+function animate() {
+    if (window.scrollY > 0 ) {
+        window.scrollBy(0, -15);
+        setTimeout(animate, 1);
+    }
+}
+
+bat.addEventListener("click", function(e) {
+    e.stopPropagation();
+    
+    animate();
+    
+},false);

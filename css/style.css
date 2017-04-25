@@ -586,3 +586,36 @@ nav li a:hover
     font-size:18px;
 }
 
+
+/* przycisk */
+.button-up
+{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border: 1px solid black;
+    border-radius: 10%;
+    background: #FFA500;
+    height: 60px;
+    width: 60px;
+    opacity: 1;
+    z-index: 999;
+     padding: 10px 1px 2px 18px;
+    font-size: 24px;
+}
+.button-up:before
+{
+    content: "\f062";
+    font-family: fontawesome;
+    display: inline-block;
+    vertical-align: middle;
+   
+}
+.button-up:hover
+{
+    
+}
+.button-up.hidden
+{
+    opacity: 0;
+}
