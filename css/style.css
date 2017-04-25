@@ -613,7 +613,7 @@ nav li a:hover
 }
 .button-up:hover
 {
-    
+    background: #fbff00;
 }
 .button-up.hidden
 {

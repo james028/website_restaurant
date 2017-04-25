@@ -62,7 +62,7 @@ window.addEventListener("scroll", function() {
 
 function animate() {
     if (window.scrollY > 0 ) {
-        window.scrollBy(0, -15);
+        window.scrollBy(0, -20);
         setTimeout(animate, 1);
     }
 }
