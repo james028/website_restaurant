@@ -68,7 +68,7 @@ nav li a:hover
 {
     color: white;
     letter-spacing: 0.5px;
-    margin-top: 150px; 
+    margin-top: 180px; 
     text-align: center; 
 }
 .page-content h2
@@ -114,7 +114,7 @@ nav li a:hover
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
-  margin: 10px;
+  margin: 50px auto 10px;;
   padding: 20px;
   border: 3px solid #f7f7f7;
   text-align: center;
@@ -363,14 +363,11 @@ nav li a:hover
     box-shadow: 0 0 0 2px transparent,0 1px 0 rgba(0,0,0,.08) inset;
     border: 1px solid orange;
     font-size: 20px;
+    padding-left: 10px;
 }
 .form-con-2 input:hover
 {
-    border:2px solid silver;
-}
-.form-con-2 textarea:hover
-{
-    border:2px solid silver;
+    border: 2px solid silver;
 }
 .form-con-2 textarea
 {
@@ -381,6 +378,13 @@ nav li a:hover
     border-radius: .3rem;
     box-shadow: 0 0 0 2px transparent,0 1px 0 rgba(0,0,0,.08) inset;
     border: 1px solid orange;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.form-con-2 textarea:hover
+{
+    border:2px solid silver;
 }
 .form-con-2 .button1
 {
@@ -397,21 +401,15 @@ nav li a:hover
     color: #fff;
     border: none;
 }
-.map-con-1
-{
-    margin: 30px 15px 25px;
-}
 .map-con-1 .map-con-a
 {
-    color: #DEFFFF;
-
-    
+    color: #DEFFFF;   
 }
 .map-con-a .fa
 {
-    font-size: 40px;
     color: #F2BA66;
-    margin: auto 25px; 
+    margin-right: 25px;
+    font-size: 30px;
 }
 .map-con-a .fa:hover
 {
@@ -419,7 +417,6 @@ nav li a:hover
 }
 .map-con-a h4
 {
-    font-size: 24px;
     letter-spacing: 0.5px;  
     line-height: 40px;
 }
