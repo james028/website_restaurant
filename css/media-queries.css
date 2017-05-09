@@ -147,11 +147,24 @@
     }
     .about-main
     {
-    margin: 30px auto;
+    margin: 10px auto;
     }
     .about-left
     {
         margin: 5px auto 30px;
+    }
+    .about-left .about-title
+    {
+        text-align: center;
+    }
+    .about-right img
+    {
+        max-width: 98%;
+        max-height: 400px;
+    }
+    #phrase
+    {
+        min-width: 100%;
     }
     .phrase-1
     {
@@ -301,6 +314,10 @@
     {
         font-size: 13px;
     }
+    .about-main
+    {
+    margin: 10px auto;
+    }
     .about-left .about-title
     {
         text-align: center;
@@ -313,7 +330,7 @@
     }
     .about-right img
     {
-        max-width: 90%;
+        max-width: 98%;
         max-height: 400px;
     }
     .phrase-1
