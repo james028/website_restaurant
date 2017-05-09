@@ -145,6 +145,23 @@
     {
         text-align: center;
     }
+    .about-main
+    {
+    margin: 30px auto;
+    }
+    .about-left
+    {
+        margin: 5px auto 30px;
+    }
+    .phrase-1
+    {
+        margin: 160px auto 50px;
+        font-size: 36px;
+    }
+    .phrase-2
+    {
+    font-size: 20px;
+    }
 }
 
 
@@ -187,6 +204,10 @@
     {
     display: flex;
     flex-direction: column;
+    }
+    .row-1 .title
+    {
+        font-size: 36px;
     }
     .team-p
     {
@@ -278,5 +299,18 @@
     .map-con-a h4
     {
         font-size: 13px;
+    }
+    .about-right img
+    {
+        max-width: 90%;
+    }
+    .phrase-1
+    {
+        margin: 160px auto 40px;
+        font-size: 34px;
+    }
+    .phrase-2
+    {
+    font-size: 18px;
     }
 }

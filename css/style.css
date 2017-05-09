@@ -152,6 +152,60 @@ nav li a:hover
 }
 
 
+/* Sekcja about */
+#about
+{
+    margin: 80px auto;
+}
+.about-main
+{
+    margin: 60px auto;
+}
+.about-left .about-title
+{
+    color: #ccc4bc;
+    margin: 10px auto 35px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.about-left .about-text
+{
+    color: #ccc4bc;
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 400;
+}
+.about-right
+{
+    max-width: 100%;
+    height: 400px;
+    text-align: center;
+}
+
+/* Sekcja phrase */
+#phrase
+{
+    background-image: url('../img/par.jpg'); 
+    min-height: 450px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 80px auto;
+    color: #fff;
+}
+.phrase-1
+{
+    font-family: 'Satisfy', cursive;
+    font-size: 50px; 
+    margin: 180px auto 50px;
+}
+.phrase-2
+{
+    font-size: 24px;
+}
+
+
 
 /* Sekcja menu */
 .row-5
@@ -590,7 +644,6 @@ nav li a:hover
     position: fixed;
     right: 20px;
     bottom: 20px;
-    border: 1px solid black;
     border-radius: 10%;
     background: #FFA500;
     height: 60px;
