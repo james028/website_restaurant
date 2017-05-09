@@ -207,7 +207,7 @@
     }
     .row-1 .title
     {
-        font-size: 36px;
+        font-size: 28px;
     }
     .team-p
     {
@@ -230,7 +230,8 @@
     }
     .row-2 .title
     {
-        margin: 30px auto;
+        margin: 50px auto;
+        font-size: 28px;
     }
     .form-con-1 p
     {
@@ -300,9 +301,20 @@
     {
         font-size: 13px;
     }
+    .about-left .about-title
+    {
+        text-align: center;
+    }
+    .about-left .about-text
+    {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 30px;
+    }
     .about-right img
     {
         max-width: 90%;
+        max-height: 400px;
     }
     .phrase-1
     {
@@ -313,4 +325,5 @@
     {
     font-size: 18px;
     }
+    
 }
