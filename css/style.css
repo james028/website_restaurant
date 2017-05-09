@@ -159,14 +159,14 @@ nav li a:hover
     display: flex;
     justify-content: center;
 }
-.row-5 .menu-con
+.menu-con
 {
     flex: 1;
     justify-content:space-around;
     text-align: center;
     margin: 40px auto;
 }
-.menu-choo h4
+.menu-con h4
 {
     color: #fff;
     margin-top: 20px;
@@ -222,24 +222,25 @@ nav li a:hover
 {
     flex: 1;
     margin-bottom: 60px;
-}
-.team-col
-{
     text-align: center;
     margin: 80px 20px 40px;
 }
-.team-col img
+.team-col
+{
+    
+}
+.team-p img
 {   
     border-radius: 100%;
     height: auto;
     max-width: 100%;
 }
 
-.team-col h3
+.team-p h3
 {
     color: #ccc4bc;
 }
-.team-col h6
+.team-p h6
 {
     font-size: 14px;
     line-height: 28px;
@@ -247,7 +248,7 @@ nav li a:hover
     color: #76613E;
 
 }
-.team-col p
+.team-p p
 {
     color: #ccc4bc;
     font-size: 17px;
@@ -596,7 +597,6 @@ nav li a:hover
     width: 60px;
     opacity: 1;
     z-index: 999;
-     padding: 10px 1px 2px 18px;
     font-size: 24px;
 }
 .button-up:before
@@ -605,6 +605,11 @@ nav li a:hover
     font-family: fontawesome;
     display: inline-block;
     vertical-align: middle;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
    
 }
 .button-up:hover

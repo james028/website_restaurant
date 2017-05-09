@@ -92,7 +92,7 @@
     {
       margin: 30px 55px 10px;
     }
-    .team-col p
+    .team-p p
     {
       margin: 5px 50px;
     }
@@ -105,7 +105,7 @@
         display: flex;
         flex-direction: column;
     }
-    .team-col img
+    .team-p img
     {
         max-width: 50%;
     }
@@ -188,10 +188,10 @@
     display: flex;
     flex-direction: column;
     }
-    .team-col
+    .team-p
     {
     text-align: center;
-    margin: 20px auto;
+    margin: 20px 30px;
     }
     .news-main-1
     {
